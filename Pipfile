@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytube = {git = "https://github.com/nficano/pytube.git", editable = true, ref = "ff8335d7884fd9c4272ffd7edc5720ea02fdf6b1"}
+requests = "==2.24.0"
+beautifulsoup4 = "==4.9.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
